@@ -11,33 +11,27 @@
 	.main-region {
 		padding-top: 4em;
 		padding-bottom: 3em;
-		padding-right: 2%;
-		padding-left: 8%;
+		padding-left: 4%;
+		padding-right: 4%;
 	}
 
 	/* detail-region */
-	#break1 {
+	#break1, #break2 {
 		padding-top: 2em;
 		padding-bottom: 2em;
-		padding-right: 2%;
-		padding-left: 8%;
-	}
-	#break2 {
-		padding-top: 2em;
-		padding-bottom: 1em;
-		padding-right: 2%;
-		padding-left: 8%;
+		padding-left: 4%;
+		padding-right: 4%;
 	}
 	
 	.detail-region {
 		padding-top: 3em;
 		padding-bottom: 3em;
-		padding-right: 2%;
-		padding-left: 8%;
+		padding-left: 4%;
+		padding-right: 4%;
 	}
 	
 	.boxed {
-		padding: 5px 5px;
+		padding: 4px 4px;
 		border-top-left-radius: 3px;
 		border-top-right-radius: 3px;
 		border-bottom-left-radius: 3px;
