@@ -71,11 +71,12 @@ a {
 }
 
 a:hover, .main-region a:focus {
-    text-decoration: underline;
+	text-decoration: underline;
 	font-weight: bold;
 }
-ul.list-icons {
-	list-style: outside none none;
+.list {
+	display: inline;
+	padding-right: 0.7em;
 }
 .text-warning {
 	color: red;
