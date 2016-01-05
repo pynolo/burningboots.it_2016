@@ -6,24 +6,24 @@
 @font-face {font-family: 'Averia'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Italic.ttf') format('truetype');}
 @font-face {font-family: 'Averia'; font-weight: bold; font-style: normal; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Bold.ttf') format('truetype');}
 @font-face {font-family: 'Averia'; font-weight: bold; font-style: italic; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-BoldItalic.ttf') format('truetype');}
-/*
+
 @font-face {font-family: 'Arvo'; font-weight: bold; font-style: normal; src: url('/_assets/fonts/Arvo/Arvo-Bold.ttf') format('truetype');}
 @font-face {font-family: 'Arvo'; font-weight: bold; font-style: italic; src: url('/_assets/fonts/Arvo/Arvo-BoldItalic.ttf') format('truetype');}
 @font-face {font-family: 'Arvo'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/Arvo/Arvo-Italic.ttf') format('truetype');}
-@font-face {font-family: 'Arvo'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Arvo/Arvo-Regular.ttf') format('truetype');}*/
+@font-face {font-family: 'Arvo'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Arvo/Arvo-Regular.ttf') format('truetype');}
 
-@font-face { font-family: 'Roboto'; font-style: normal; font-weight: normal;
+/*@font-face { font-family: 'Roboto'; font-style: normal; font-weight: normal;
   src: local('Roboto'), local('Roboto-Regular'), url('/_assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');}
 @font-face { font-family: 'Roboto'; font-style: normal; font-weight: bold;
   src: local('Roboto Medium'), local('Roboto-Medium'), url('/_assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');}
 @font-face { font-family: 'Roboto'; font-style: italic; font-weight: normal;
   src: local('Roboto Italic'), local('Roboto-Italic'), url('/_assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype');}
 @font-face { font-family: 'Roboto'; font-style: italic; font-weight: bold;
-  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('/_assets/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');}
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('/_assets/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');} */
 
 section {
 	margin: 0px 0px;
-	font-family: 'Roboto',tahoma,'Lucida Sans',sans;
+	font-family: 'Arvo',tahoma,'Lucida Sans',sans;
 }
 h1 {
 	color: #de0b6a;
@@ -32,14 +32,16 @@ h1 {
 	font-weight: bold;
 	margin-top: 0.7em;
 	margin-bottom: 1em;
+	text-shadow: -1px -1px 2px rgba(255, 255, 255, 1);
 }
 h2 {
-	color: #de0868;
+	color: #de0b6a;
 	font-family: 'Averia',tahoma,'Lucida Sans',sans;
 	font-size: 2.2em;
 	font-weight: bold;
 	margin-top: 1.1em;
 	margin-bottom: 0.7em;
+	text-shadow: -1px -1px 2px rgba(255, 255, 255, 1);
 }
 #subtitle {
 	color: #000000;
@@ -93,19 +95,24 @@ ul.list-icons {
 
 /* main-region */
 #region1 {
-	display: table-cell;
-	vertical-align: middle;
-	height: 99vh;
-	width: 100vw;
 	/*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.95);*/
-	background-image: url("/_assets/front/img/igm_white.jpg");
+	background-image: url("/_assets/front/img/bg1.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	/* xs sm */
 }
 
 /* detail-region */
-#break1, #break2 {
+#break1 {
+	text-align: center;
+	color: #383838;
+	background-color: #FFFFFF;
+	background-image: url("/_assets/front/img/igm_white.jpg");
+	background-size: 100%;
+	background-attachment: scroll;
+	/* xs sm */
+}
+#break2 {
 	background-color: #339BEB;
 	background-image: url("/_assets/front/img/igm_blue.jpg");
 	background-size: 100%;
@@ -159,7 +166,7 @@ article p {
 	position: relative; display: table;
 	width: 100%;
 	height: 600px;
-	background: url('https://burningboots.it/_assets/front/img/ibb_simone_600.png') no-repeat top center ;
+	background: url('https://burningboots.it/_assets/front/img/ibb_simone_600_white.png') no-repeat top center ;
 }
 
 .over_cosa_div {
@@ -227,9 +234,9 @@ article p {
 .over_text {
 	text-align: center;
 	padding: 0 10%;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
 .over_text a {
 	text-decoration: none;
 	color: #FFFFFF;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
