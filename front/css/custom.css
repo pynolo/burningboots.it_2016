@@ -93,7 +93,10 @@ ul.list-icons {
 
 /* main-region */
 #region1 {
-	margin: 0px 0px;
+	display: table-cell;
+	vertical-align: middle;
+	height: 99vh;
+	width: 100vw;
 	/*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.95);*/
 	background-image: url("/_assets/front/img/igm_white.jpg");
 	background-size: cover;
