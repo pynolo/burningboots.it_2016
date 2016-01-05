@@ -1,0 +1,30 @@
+@media (min-width: 769px) {
+
+	/** CONTENT **/
+
+	/* main-region */
+	#region1 {
+		padding: 3em 20%;
+	}
+
+	/* detail-region */
+	#break1 {
+		padding: 3em 20%;
+	}
+	#break2 {
+		padding: 3em 20%;
+	}
+	
+	.detail-region {
+		padding: 7em 20%;
+	}
+	
+	.boxed {
+		padding: 15px 15px;
+		border-radius: 1em;
+	}
+
+	.watermark {
+		right: 2em;
+	}
+}

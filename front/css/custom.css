@@ -1,0 +1,232 @@
+/*@font-face {font-family: 'IM_Fell_DW_Pica'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/IM_Fell_DW_Pica/IMFePIrm28P.ttf') format('truetype');}
+@font-face {font-family: 'IM_Fell_DW_Pica'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/IM_Fell_DW_Pica/IMFePIit28P.ttf') format('truetype');}
+@font-face {font-family: 'Andika'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/andika/AndBasR.ttf') format('truetype');}*/
+
+@font-face {font-family: 'Averia'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Averia'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Italic.ttf') format('truetype');}
+@font-face {font-family: 'Averia'; font-weight: bold; font-style: normal; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Averia'; font-weight: bold; font-style: italic; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-BoldItalic.ttf') format('truetype');}
+/*
+@font-face {font-family: 'Arvo'; font-weight: bold; font-style: normal; src: url('/_assets/fonts/Arvo/Arvo-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Arvo'; font-weight: bold; font-style: italic; src: url('/_assets/fonts/Arvo/Arvo-BoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Arvo'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/Arvo/Arvo-Italic.ttf') format('truetype');}
+@font-face {font-family: 'Arvo'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Arvo/Arvo-Regular.ttf') format('truetype');}*/
+
+@font-face { font-family: 'Roboto'; font-style: normal; font-weight: normal;
+  src: local('Roboto'), local('Roboto-Regular'), url('/_assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');}
+@font-face { font-family: 'Roboto'; font-style: normal; font-weight: bold;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('/_assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');}
+@font-face { font-family: 'Roboto'; font-style: italic; font-weight: normal;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url('/_assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype');}
+@font-face { font-family: 'Roboto'; font-style: italic; font-weight: bold;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('/_assets/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');}
+
+section {
+	margin: 0px 0px;
+	font-family: 'Roboto',tahoma,'Lucida Sans',sans;
+}
+h1 {
+	color: #de0b6a;
+	font-family: 'Averia',tahoma,'Lucida Sans',sans;
+	font-size: 2.6em;
+	font-weight: bold;
+	margin-top: 0.7em;
+	margin-bottom: 1em;
+}
+h2 {
+	color: #de0868;
+	font-family: 'Averia',tahoma,'Lucida Sans',sans;
+	font-size: 2.2em;
+	font-weight: bold;
+	margin-top: 1.1em;
+	margin-bottom: 0.7em;
+}
+#subtitle {
+	color: #000000;
+	font-size: 1.3em;
+	text-shadow: -1px -1px 2px rgba(255, 255, 255, 1);
+}
+h4 {
+	color: #FFFFFF;
+	font-family: 'Averia',tahoma,'Lucida Sans',sans;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+.black {
+	color: #000000;
+}
+.white {
+	color: #FFFFFF;
+}
+.purple {
+	color: #e32077;
+}
+a {
+	color: #e32077;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:hover, .main-region a:focus {
+    text-decoration: underline;
+	font-weight: bold;
+}
+ul.list-icons {
+	list-style: outside none none;
+}
+.text-warning {
+	color: red;
+}
+#subpage {
+	font-size: 1.0em;
+	color: #444444;
+	text-shadow: none;
+}
+.miniimg {
+	/* xs sm */
+}
+
+
+
+/** REGIONS **/
+
+/* main-region */
+#region1 {
+	margin: 0px 0px;
+	/*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.95);*/
+	background-image: url("/_assets/front/img/igm_white.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	/* xs sm */
+}
+
+/* detail-region */
+#break1, #break2 {
+	background-color: #339BEB;
+	background-image: url("/_assets/front/img/igm_blue.jpg");
+	background-size: 100%;
+	background-attachment: scroll;
+	/* xs sm */
+}
+#region2 {
+	background-image: url("/_assets/front/img/bg6.jpg");
+}
+#region3 {
+	background-image: url("/_assets/front/img/bg2.jpg");
+}
+.detail-region {
+	font-size: 1.1em;
+	color: #FFFFFF;
+	/*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);*/
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0px;
+	/* xs sm */
+}
+article p {
+	font-size: 1.0em;
+	padding-top: 0.7em;
+	padding-bottom: 2em;
+}
+
+.boxed {
+	background-color: #FFF;
+	color: #444444;
+	border-radius: 1em;
+	/*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);*/
+}
+
+.watermark {
+	padding: 0.3em;
+	top: 20px;
+	background-color: #FFF;
+	/*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);*/
+	position: fixed;
+	text-align: right;
+	border-radius: 0.3em;
+	/* xs sm */
+}
+
+
+
+/* image overlays */
+
+.over_title_div {
+	position: relative; display: table;
+	width: 100%;
+	height: 600px;
+	background: url('https://burningboots.it/_assets/front/img/ibb_simone_600.png') no-repeat top center ;
+}
+
+.over_cosa_div {
+	position: relative; display: table;
+	width: 100%;
+	border-radius: 0.8em;
+	background: url('https://burningboots.it/_assets/front/img/link_gruppo.jpg') no-repeat top center ;
+	background-size: cover;
+}
+.over_iscrizione_div {
+	position: relative; display: table;
+	width: 100%;
+	border-radius: 0.8em;
+	background: url('https://burningboots.it/_assets/front/img/link_silhouette.jpg') no-repeat top center ;
+	background-size: cover;
+}
+.over_principi_div {
+	position: relative; display: table;
+	width: 100%;
+	border-radius: 0.8em;
+	background: url('https://burningboots.it/_assets/front/img/link_fuoco.jpg') no-repeat top center ;
+	background-size: cover;
+}
+.over_arte_div {
+	position: relative; display: table;
+	width: 100%;
+	border-radius: 0.8em;
+	background: url('https://burningboots.it/_assets/front/img/link_hoola.jpg') no-repeat top center ;
+	background-size: cover;
+}
+.over_zaino_div {
+	position: relative; display: table;
+	width: 100%;
+	border-radius: 0.8em;
+	background: url('https://burningboots.it/_assets/front/img/link_radura.jpg') no-repeat top center ;
+	background-size: cover;
+}
+.over_dove_div {
+	position: relative; display: table;
+	width: 100%;
+	border-radius: 0.8em;
+	background: url('https://burningboots.it/_assets/front/img/link_abbraccio.jpg') no-repeat top center ;
+	background-size: cover;
+}
+.over_faq_div {
+	position: relative; display: table;
+	width: 100%;
+	border-radius: 0.8em;
+	background: url('https://burningboots.it/_assets/front/img/link_falo.jpg') no-repeat top center ;
+	background-size: cover;
+}
+.over_login_div {
+	position: relative; display: table;
+	width: 100%;
+	border-radius: 0.8em;
+	background: url('https://burningboots.it/_assets/front/img/link_hoola2.jpg') no-repeat top center ;
+	background-size: cover;
+}
+
+.over_div {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 4em 0;
+}
+.over_text {
+	text-align: center;
+	padding: 0 10%;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+.over_text a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
