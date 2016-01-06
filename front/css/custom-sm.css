@@ -4,14 +4,11 @@
 
 	/* main-region */
 	#region1 {
-		padding: 3em 20%;
+		padding: 3em 15%;
 	}
 
 	/* detail-region */
-	#break1 {
-		padding: 3em 20%;
-	}
-	#break2 {
+	#break1, #break2 {
 		padding: 3em 20%;
 	}
 	

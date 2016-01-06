@@ -86,10 +86,22 @@ a:hover, .main-region a:focus {
 	color: #444444;
 	text-shadow: none;
 }
-.miniimg {
-	/* xs sm */
+.descrlink {
+	text-decoration: none;
+	font-weight: normal;
+	text-align: center;
 }
-
+.descrlink a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #444444;
+}
+.centered_img {
+	width: 70%;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	border-radius: 0.6em;
+} 
 
 
 /** REGIONS **/
@@ -166,7 +178,7 @@ article p {
 .over_title_div {
 	position: relative; display: table;
 	width: 100%;
-	height: 600px;
+	height: 638px;
 	background: url('https://burningboots.it/_assets/front/img/ibb_simone_600_white.png') no-repeat top center ;
 }
 
