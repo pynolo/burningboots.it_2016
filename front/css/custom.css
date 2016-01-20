@@ -1,14 +1,14 @@
-/*@font-face {font-family: 'Andika'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Andika/AndBasR.ttf') format('truetype');}*/
+/*@font-face {font-family: 'Andika'; font-weight: normal; font-style: normal; src: url('/site/fonts/Andika/AndBasR.ttf') format('truetype');}*/
 
-@font-face {font-family: 'Averia'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Regular.ttf') format('truetype');}
-@font-face {font-family: 'Averia'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Italic.ttf') format('truetype');}
-@font-face {font-family: 'Averia'; font-weight: bold; font-style: normal; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Bold.ttf') format('truetype');}
-@font-face {font-family: 'Averia'; font-weight: bold; font-style: italic; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-BoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Averia'; font-weight: normal; font-style: normal; src: url('/site/fonts/Averia_Libre/AveriaLibre-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Averia'; font-weight: normal; font-style: italic; src: url('/site/fonts/Averia_Libre/AveriaLibre-Italic.ttf') format('truetype');}
+@font-face {font-family: 'Averia'; font-weight: bold; font-style: normal; src: url('/site/fonts/Averia_Libre/AveriaLibre-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Averia'; font-weight: bold; font-style: italic; src: url('/site/fonts/Averia_Libre/AveriaLibre-BoldItalic.ttf') format('truetype');}
 
-@font-face {font-family: 'Arvo'; font-weight: bold; font-style: normal; src: url('/_assets/fonts/Arvo/Arvo-Bold.ttf') format('truetype');}
-@font-face {font-family: 'Arvo'; font-weight: bold; font-style: italic; src: url('/_assets/fonts/Arvo/Arvo-BoldItalic.ttf') format('truetype');}
-@font-face {font-family: 'Arvo'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/Arvo/Arvo-Italic.ttf') format('truetype');}
-@font-face {font-family: 'Arvo'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Arvo/Arvo-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Arvo'; font-weight: bold; font-style: normal; src: url('/site/fonts/Arvo/Arvo-Bold.ttf') format('truetype');}
+@font-face {font-family: 'Arvo'; font-weight: bold; font-style: italic; src: url('/site/fonts/Arvo/Arvo-BoldItalic.ttf') format('truetype');}
+@font-face {font-family: 'Arvo'; font-weight: normal; font-style: italic; src: url('/site/fonts/Arvo/Arvo-Italic.ttf') format('truetype');}
+@font-face {font-family: 'Arvo'; font-weight: normal; font-style: normal; src: url('/site/fonts/Arvo/Arvo-Regular.ttf') format('truetype');}
 
 body {
     display: block;
@@ -109,7 +109,7 @@ a:hover, .main-region a:focus {
 /* main-region */
 #region1 {
 	/*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.95);*/
-	background-image: url("/_assets/front/img/bg1.jpg");
+	background-image: url("/site/front/img/bg1.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	/* xs sm */
@@ -120,23 +120,23 @@ a:hover, .main-region a:focus {
 	text-align: center;
 	color: #383838;
 	background-color: #FFFFFF;
-	background-image: url("/_assets/front/img/igm_white.jpg");
+	background-image: url("/site/front/img/igm_white.jpg");
 	background-size: 100%;
 	background-attachment: scroll;
 	/* xs sm */
 }
 #break2 {
 	background-color: #339BEB;
-	background-image: url("/_assets/front/img/igm_blue.jpg");
+	background-image: url("/site/front/img/igm_blue.jpg");
 	background-size: 100%;
 	background-attachment: scroll;
 	/* xs sm */
 }
 #region2 {
-	background-image: url("/_assets/front/img/bg6.jpg");
+	background-image: url("/site/front/img/bg6.jpg");
 }
 #region3 {
-	background-image: url("/_assets/front/img/bg2.jpg");
+	background-image: url("/site/front/img/bg2.jpg");
 }
 .detail-region {
 	font-size: 1.1em;
@@ -179,63 +179,63 @@ article p {
 	position: relative; display: table;
 	width: 100%;
 	height: 638px;
-	background: url('https://burningboots.it/_assets/front/img/SatiroDanzante_638_white.png') no-repeat top center ;
+	background: url('https://burningboots.it/site/front/img/SatiroDanzante_638_white.png') no-repeat top center ;
 }
 
 .over_cosa_div {
 	position: relative; display: table;
 	width: 100%;
 	border-radius: 0.8em;
-	background: url('https://burningboots.it/_assets/front/img/link_gruppo.jpg') no-repeat top center ;
+	background: url('https://burningboots.it/site/front/img/link_gruppo.jpg') no-repeat top center ;
 	background-size: cover;
 }
 .over_iscrizione_div {
 	position: relative; display: table;
 	width: 100%;
 	border-radius: 0.8em;
-	background: url('https://burningboots.it/_assets/front/img/link_silhouette.jpg') no-repeat top center ;
+	background: url('https://burningboots.it/site/front/img/link_silhouette.jpg') no-repeat top center ;
 	background-size: cover;
 }
 .over_principi_div {
 	position: relative; display: table;
 	width: 100%;
 	border-radius: 0.8em;
-	background: url('https://burningboots.it/_assets/front/img/link_fuoco.jpg') no-repeat top center ;
+	background: url('https://burningboots.it/site/front/img/link_fuoco.jpg') no-repeat top center ;
 	background-size: cover;
 }
 .over_arte_div {
 	position: relative; display: table;
 	width: 100%;
 	border-radius: 0.8em;
-	background: url('https://burningboots.it/_assets/front/img/link_hoola.jpg') no-repeat top center ;
+	background: url('https://burningboots.it/site/front/img/link_hoola.jpg') no-repeat top center ;
 	background-size: cover;
 }
 .over_zaino_div {
 	position: relative; display: table;
 	width: 100%;
 	border-radius: 0.8em;
-	background: url('https://burningboots.it/_assets/front/img/link_radura.jpg') no-repeat top center ;
+	background: url('https://burningboots.it/site/front/img/link_radura.jpg') no-repeat top center ;
 	background-size: cover;
 }
 .over_dove_div {
 	position: relative; display: table;
 	width: 100%;
 	border-radius: 0.8em;
-	background: url('https://burningboots.it/_assets/front/img/link_abbraccio.jpg') no-repeat top center ;
+	background: url('https://burningboots.it/site/front/img/link_abbraccio.jpg') no-repeat top center ;
 	background-size: cover;
 }
 .over_faq_div {
 	position: relative; display: table;
 	width: 100%;
 	border-radius: 0.8em;
-	background: url('https://burningboots.it/_assets/front/img/link_falo.jpg') no-repeat top center ;
+	background: url('https://burningboots.it/site/front/img/link_falo.jpg') no-repeat top center ;
 	background-size: cover;
 }
 .over_login_div {
 	position: relative; display: table;
 	width: 100%;
 	border-radius: 0.8em;
-	background: url('https://burningboots.it/_assets/front/img/link_hoola2.jpg') no-repeat top center ;
+	background: url('https://burningboots.it/site/front/img/link_hoola2.jpg') no-repeat top center ;
 	background-size: cover;
 }
 
