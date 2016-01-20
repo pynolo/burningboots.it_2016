@@ -1,6 +1,4 @@
-/*@font-face {font-family: 'IM_Fell_DW_Pica'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/IM_Fell_DW_Pica/IMFePIrm28P.ttf') format('truetype');}
-@font-face {font-family: 'IM_Fell_DW_Pica'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/IM_Fell_DW_Pica/IMFePIit28P.ttf') format('truetype');}
-@font-face {font-family: 'Andika'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/andika/AndBasR.ttf') format('truetype');}*/
+/*@font-face {font-family: 'Andika'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Andika/AndBasR.ttf') format('truetype');}*/
 
 @font-face {font-family: 'Averia'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Regular.ttf') format('truetype');}
 @font-face {font-family: 'Averia'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/Averia_Libre/AveriaLibre-Italic.ttf') format('truetype');}
@@ -12,14 +10,10 @@
 @font-face {font-family: 'Arvo'; font-weight: normal; font-style: italic; src: url('/_assets/fonts/Arvo/Arvo-Italic.ttf') format('truetype');}
 @font-face {font-family: 'Arvo'; font-weight: normal; font-style: normal; src: url('/_assets/fonts/Arvo/Arvo-Regular.ttf') format('truetype');}
 
-/*@font-face { font-family: 'Roboto'; font-style: normal; font-weight: normal;
-  src: local('Roboto'), local('Roboto-Regular'), url('/_assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');}
-@font-face { font-family: 'Roboto'; font-style: normal; font-weight: bold;
-  src: local('Roboto Medium'), local('Roboto-Medium'), url('/_assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');}
-@font-face { font-family: 'Roboto'; font-style: italic; font-weight: normal;
-  src: local('Roboto Italic'), local('Roboto-Italic'), url('/_assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype');}
-@font-face { font-family: 'Roboto'; font-style: italic; font-weight: bold;
-  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('/_assets/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');} */
+body {
+    display: block;
+    margin: 0px;
+}
 
 section {
 	margin: 0px 0px;
