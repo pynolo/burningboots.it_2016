@@ -58,16 +58,21 @@ h4 {
 .purple {
 	color: #e32077;
 }
+.grey {
+	color: #bbbbbb;
+}
 a {
 	color: #e32077;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	font-weight: bold;
 }
-
-a:hover, .main-region a:focus {
+a:hover {
+	text-decoration: underline;
+}
+/*a:hover, .main-region a:focus {
 	text-decoration: underline;
 	font-weight: bold;
-}
+}*/
 .princ_list {
 	display: inline;
 	padding-right: 0.7em;
@@ -81,12 +86,17 @@ a:hover, .main-region a:focus {
 	text-shadow: none;
 }
 .descrlink {
-	text-decoration: none;
 	font-weight: normal;
 	text-align: center;
+	color: #444444;
 }
 .descrlink a {
 	text-decoration: none;
+	font-weight: normal;
+	color: #444444;
+}
+.descrlink a:hover {
+	text-decoration: underline;
 	font-weight: normal;
 	color: #444444;
 }
@@ -249,7 +259,6 @@ article p {
 	padding: 0 10%;
 }
 .over_text a {
-	text-decoration: none;
 	color: #FFFFFF;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
