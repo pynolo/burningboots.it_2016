@@ -77,6 +77,14 @@ a:hover {
 	display: inline;
 	padding-right: 0.7em;
 }
+.princ_list a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #000000;
+}
+.princ_list a:hover {
+	text-decoration: underline;
+}
 .text-warning {
 	color: red;
 }
